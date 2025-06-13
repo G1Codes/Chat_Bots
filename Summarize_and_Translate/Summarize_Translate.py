@@ -21,12 +21,14 @@ with st.sidebar:
     if not groq_api_key.strip():
         st.error("Please provide the API key")
 
-llm = ChatGroq(
-    model="gemma2-9b-it",
-    groq_api_key=groq_api_key,
-    temperature=0.3,
-    max_tokens=500  # Cap for ~300-word summary
-)
+llm = None
+if groq_api_key.strip():
+    llm = ChatGroq(
+        model="gemma2-9b-it",
+        groq_api_key=groq_api_key,
+        temperature=0.3,
+        max_tokens=500
+    )
 
 language= st.selectbox("Select the language", ["English", "Hindi", "Marathi", "Kannada", "Tamil", "Telugu"])
 
