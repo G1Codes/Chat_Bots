@@ -115,20 +115,3 @@ Text-Summarization/
 This project is licensed under the **MIT License**.
 
 ---
-
-## 🙋‍♀️ Support or Questions?
-
-Raise an issue or suggest features in the GitHub repo:
-👉 [https://github.com/your-username/Text-Summarization](https://github.com/your-username/Text-Summarization)
-
----
-
-> Built with 💡 by a LangChain + Streamlit Enthusiast
-
-```
-
----
-
-Let me know if you want the `requirements.txt` or GitHub badge sections added too.
-```
-
