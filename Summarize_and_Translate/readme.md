@@ -6,9 +6,9 @@ This is a **Streamlit web app** that takes a URL (e.g., blog, article, or Wikipe
 
 ## 📸 App Preview
 
-![App Screenshot](screenshots/Eng_Summary.png)
+![App Screenshot](Screenshots/Eng_Summary.png)
 
-![App Screenshot](screenshots/Hindi_Summary.png)
+![App Screenshot](Screenshots/Hindi_summary.png)
 
 > *Summarize and translate website or Wikipedia content into your selected language*
 
