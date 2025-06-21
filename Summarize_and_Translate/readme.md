@@ -3,6 +3,8 @@
 This is a **Streamlit web app** that takes a URL (e.g., blog, article, or Wikipedia page), fetches its text content, and generates a **beautiful, multi-language summary** using **Groq’s blazing-fast LLMs** via LangChain.
 
 ---
+### Link:
+https://summarize-and-translate.streamlit.app/
 
 ## 📸 App Preview
 
